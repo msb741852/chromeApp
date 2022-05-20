@@ -76,6 +76,8 @@ ul {
 }
 
 #todo-list {
+    background-color: rgba(170, 169, 134, 0.568);
+    border-radius: 4px;
     padding: 0;
     position: fixed;
     right: 32px;
@@ -83,8 +85,16 @@ ul {
 }
 
 #todo-list li {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
     font-size: 42px;
     color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+#todo-list li:last-child {
+    border-bottom: none;
 }
 
 #todo-list button {
